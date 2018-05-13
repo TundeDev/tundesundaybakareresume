@@ -7,13 +7,24 @@ h1 {
 	font-size: 4vw;
 	margin-top: 0;
 }
-header {
+.banner {
 	background-color: rgba(64, 64, 81, 0.3);
 }
 
+h2 {
+	background: rgba(64, 64, 81, 0.2);
+	width: 1170px;
+
+}
+
+h1 {
+	color: #cc9900;
+}
+
 aside {
-	width: 200px;
+	float: right;
 	background-color: rgba(64, 64, 81, 0.1);
+	width: 180px;
 
 }
 
