@@ -17,6 +17,11 @@ h2 {
 
 }
 
+h3 {
+	background: rgba(64, 64, 81, 0.1);
+	width: 400px;
+}
+
 h1 {
 	color: #cc9900;
 }
