@@ -9,6 +9,23 @@ h1 {
 }
 .banner {
 	background-color: rgba(64, 64, 81, 0.3);
+	
+
+}
+
+.banner:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.name {
+	
+	float: left;
+	padding-left: 120px;
 }
 
 h2 {
@@ -29,7 +46,9 @@ h1 {
 aside {
 	float: right;
 	background-color: rgba(64, 64, 81, 0.1);
+	
 	width: 180px;
+
 
 }
 
