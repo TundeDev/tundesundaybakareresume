@@ -3,15 +3,22 @@ html, body {
 	padding: 0;
 }
 
+.banner {
+	background-color: rgba(64, 64, 81, 0.3);
+	width: 100%;
+}
+
 h1 {
 	font-size: 4vw;
 	margin-top: 0;
 }
-.banner {
-	background-color: rgba(64, 64, 81, 0.3);
-	
 
+.name {
+	
+	float: left;
+	padding-left: 120px;
 }
+
 
 .banner:after {
 	visibility: hidden;
@@ -22,34 +29,23 @@ h1 {
 	height: 0;
 }
 
-.name {
-	
-	float: left;
-	padding-left: 120px;
-}
-
 h2 {
 	background: rgba(64, 64, 81, 0.2);
-	max-width: 86.6%;
+	width: 86%;
 
 }
 
 h3 {
 	background: rgba(64, 64, 81, 0.1);
-	width: 400px;
-}
-
-h1 {
-	color: #cc9900;
+	width: 20%;
 }
 
 aside {
 	float: right;
 	background-color: rgba(64, 64, 81, 0.1);
 	
-	width: 180px;
+	width: 14%;
+
 
 
 }
-
-
